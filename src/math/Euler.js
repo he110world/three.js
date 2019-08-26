@@ -291,7 +291,7 @@ Object.assign( Euler.prototype, {
 		this._x = array[ 0 ];
 		this._y = array[ 1 ];
 		this._z = array[ 2 ];
-		if ( array[ 3 ] !== undefined ) this._order = array[ 3 ];
+		if ( typeof array[ 3 ] === 'string' ) this._order = array[ 3 ];
 
 		this._onChangeCallback();
 
