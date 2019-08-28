@@ -46599,6 +46599,8 @@
 	 * @author mrdoob / http://mrdoob.com/
 	 */
 
+	//export { BoxGeometry as CubeGeometry };
+
 	function Face4( a, b, c, d, normal, color, materialIndex ) {
 
 		console.warn( 'THREE.Face4 has been removed. A THREE.Face3 will be created instead.' );
@@ -48519,7 +48521,6 @@
 	exports.ConeBufferGeometry = ConeBufferGeometry;
 	exports.ConeGeometry = ConeGeometry;
 	exports.CubeCamera = CubeCamera;
-	exports.CubeGeometry = BoxGeometry;
 	exports.CubeReflectionMapping = CubeReflectionMapping;
 	exports.CubeRefractionMapping = CubeRefractionMapping;
 	exports.CubeTexture = CubeTexture;

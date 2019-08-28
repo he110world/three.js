@@ -80,7 +80,7 @@ import { ImageUtils } from './extras/ImageUtils.js';
 import { Shape } from './extras/core/Shape.js';
 import { CubeCamera } from './cameras/CubeCamera.js';
 
-export { BoxGeometry as CubeGeometry };
+//export { BoxGeometry as CubeGeometry };
 
 export function Face4( a, b, c, d, normal, color, materialIndex ) {
 
